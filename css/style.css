@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	background-color: grey;
+	max-width: 60%;
+	margin: 0 auto;
+	min-height: 500px;
+}
+
+#shouts {
+	max-width: 90%;
+	margin: 0 auto;
+	background-color: white;
+	padding: 10px;
+	overflow: auto;
+	height: 400px;
+}
+
+.shout {
+	list-style: none;
+	border-bottom: 1px #ccc dotted;
+	padding: 10px 0;
+}
+
+.shout span {
+	font-weight: 700;
+}
+
+header h1 {
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+	border-bottom: #fff solid 1px;
+	margin-bottom: 5px;
+}
+
+#input {
+	padding: 10px;
+	margin: 0 auto;
+	min-height: 80px;
+	width: 90%;
+}
+
+#input input[type='text'] {
+	height: 25px;
+	width: 47%;
+	padding: 3px;
+	margin-bottom: 2px;
+	border: #666 solid;
+	display: inline-block;
+}
+
+#input .shout-btn {
+	padding: 5px;
+	margin: auto;
+	margin: 20px 0px;
+	width: 100%;
+
+}
+
+
+@media only screen and (max-width: 862px) {
+	#input input[type='text'] {
+		width: 95%;
+		margin-bottom: 5px;
+	}
+}
